@@ -68,6 +68,7 @@ Meals ---> App. js
 function App() {
 return (
 <Fragment>
+
 <Header />
 <main>
 <!-- *<Meals /> -->
@@ -75,3 +76,21 @@ return (
 </Fragment>
 );
 }
+
+6. Create a new folder inside Meals
+   Meal Item and new sub components
+
+   in the previous we have this components :
+
+MealsSummary ---> Meals
+AvailableMeals ---> Meals
+Meals ---> App. js
+
+The component MEALITEM will go inside of AVAILABEL MEALS
+the components inside are :
+
+Card --> MealItem --> AvailableMeals
+
+7. Create input component Input
+
+input --> MeaLitemform --> MealItem --> AvailableMeals --> Meals --> App. js
